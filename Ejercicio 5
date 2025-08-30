@@ -1,0 +1,12 @@
+Console.Write("Ingrese la longitud del tanque en metros: ");
+longitud = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Ingrese el ancho del tanque en metros: ");
+ancho = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Ingrese la altura del tanque en metros: ");
+altura = Convert.ToDouble(Console.ReadLine());
+
+volumen = longitud * ancho * altura;
+
+Console.WriteLine("El volumen total de agua en el tanque es: " + volumen + " m³");
