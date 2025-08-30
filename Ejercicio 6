@@ -1,0 +1,10 @@
+Console.Write("Ingrese el volumen promedio de leche por vaca (en litros): ");
+litrosPorVaca = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Ingrese el número total de vacas ordeñadas: ");
+numeroVacas = Convert.ToInt32(Console.ReadLine());
+
+litrosTotales = litrosPorVaca * numeroVacas;
+baldes = litrosTotales / 20;
+
+Console.WriteLine("La cantidad total de baldes de leche producida es: " + baldes);
